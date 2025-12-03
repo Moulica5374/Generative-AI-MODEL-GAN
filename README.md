@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 The Problem
+##  The Problem
 
 Financial fraud detection faces a critical challenge: **extreme class imbalance**. In real-world datasets, fraudulent transactions represent less than 1% of all data, causing ML models to:
 - Overwhelmingly predict "not fraud" 
@@ -17,19 +17,19 @@ Traditional solutions like SMOTE generate unrealistic samples that don't capture
 
 ---
 
-## 💡 The Solution
+##  The Solution
 
 Built a **production-grade GAN architecture** that generates statistically valid synthetic fraud samples, enabling balanced model training without exposing real customer data.
 
 ### Key Results
-- ✅ **Generated 1,000 synthetic fraud samples** from only 492 real samples
-- ✅ **Maintained statistical integrity** across 29-dimensional feature space  
-- ✅ **Preserved complex correlations** between features
-- ✅ **Achieved visual similarity** in PCA projections (real vs synthetic)
+-  **Generated 1,000 synthetic fraud samples** from only 492 real samples
+-  **Maintained statistical integrity** across 29-dimensional feature space  
+-  **Preserved complex correlations** between features
+-  **Achieved visual similarity** in PCA projections (real vs synthetic)
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 **Generator Network**: Transforms random noise → realistic fraud patterns
 - Input: 29D latent vector → Layers: 32→64→128 neurons → Output: 29D synthetic features
@@ -48,7 +48,7 @@ Built a **production-grade GAN architecture** that generates statistically valid
 
 ---
 
-## 📊 Validation
+##  Validation
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a1a5969e-0580-4663-9164-8f7f82e99ad7" width="700" alt="GAN Architecture Diagram"/>
@@ -58,7 +58,7 @@ Built a **production-grade GAN architecture** that generates statistically valid
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone and setup
@@ -75,7 +75,7 @@ python generate_samples.py --num-samples 1000 --output synthetic_fraud.csv
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 **For Financial Institutions:**
 - Reduce false negatives in fraud detection by providing balanced training data
@@ -90,7 +90,7 @@ python generate_samples.py --num-samples 1000 --output synthetic_fraud.csv
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Core**: Python 3.8+ • TensorFlow 2.x • Keras  
 **Data**: NumPy • Pandas • Scikit-learn  
@@ -98,7 +98,7 @@ python generate_samples.py --num-samples 1000 --output synthetic_fraud.csv
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 gan-imbalanced-data/
@@ -119,7 +119,7 @@ gan-imbalanced-data/
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Conditional GAN (CGAN) for controlled synthetic data generation
 - [ ] Wasserstein GAN (WGAN) for improved training stability
@@ -128,7 +128,7 @@ gan-imbalanced-data/
 
 ---
 
-## 👤 Author
+##  Author
 
 **Moulica** - Data Scientist & ML Engineer  
 📧 your.email@example.com  
@@ -139,7 +139,7 @@ Focus: Neural Network Activation Manipulation, Automated Program Repair, MLOps
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
@@ -147,7 +147,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 <div align="center">
   
-**⭐ If this project helped you, please star it!**
+** If this project helped you, please star it!**
 
 Built with expertise in Deep Learning, GANs, and Production ML Systems
 
