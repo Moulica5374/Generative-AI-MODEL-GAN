@@ -94,6 +94,7 @@ gan.compile(optimizer = 'adam', loss = 'binary_crossentropy')
 ## Scatter Plot (Before GAN & After PCA)
 <img width="955" height="489" alt="Screenshot 2025-12-03 at 4 54 00 PM" src="https://github.com/user-attachments/assets/001866a3-4c9b-4331-bf97-622eab600e58" />
 # Insights
+
 - PCA reduces the high-dimensional dataset (29 features) into two meaningful features that capture the most variance.
 - Class 0 forms a dense cluster, indicating similar behavior among normal transactions.
 - Class 1 shows a more scattered and elongated shape, meaning fraud transactions have higher variability.
