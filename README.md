@@ -9,12 +9,17 @@
 ---
 ## GAN 
 <img width="1439" height="526" alt="Screenshot 2025-12-03 at 2 59 54 PM" src="https://github.com/user-attachments/assets/a1a5969e-0580-4663-9164-8f7f82e99ad7" />
+Generative Adversarial Network (GAN) Architecture
 
-The **Generator** takes random noise (Z) and creates *fake samples*.  
-The **Discriminator** receives both **real samples** and **fake samples** and learns to classify them as *real or fake*.  
+The diagram above illustrates how a GAN works. The Generator takes random noise (Z) and produces fake samples. The Discriminator receives both real samples from the dataset and fake samples from the generator, and learns to classify them as real or fake.
+
 During training:
-- The **Discriminator** updates its weights to better distinguish real vs fake.
-- The **Generator** updates its weights to fool the discriminator into predicting the fake samples as real.
+
+The Discriminator updates its weights to improve its ability to distinguish real vs. fake.
+
+The Generator updates its weights to fool the discriminator into classifying fake samples as real.
+
+Together, both models compete and improve simultaneously, leading the generator to produce increasingly realistic data over time.
 
 
 
