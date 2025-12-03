@@ -8,6 +8,7 @@
 
 ---
 ## GAN 
+<img width="1439" height="526" alt="Screenshot 2025-12-03 at 2 59 54 PM" src="https://github.com/user-attachments/assets/a1a5969e-0580-4663-9164-8f7f82e99ad7" />
 
 
 
