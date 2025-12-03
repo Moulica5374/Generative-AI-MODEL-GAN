@@ -5,13 +5,14 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-Deep_Learning-D00000?style=flat&logo=keras&logoColor=white)](https://keras.io/)
 [![License: MIT](<img width="1470" height="956" alt="Screenshot 2025-12-03 at 2 59 54 PM" src="https://github.com/user-attachments/assets/d7abb181-df99-427c-bdfb-3912db1a1230" />
-htt![Uploading Screenshot 2025-12-03 at 2.59.54 PM.png…]()
+htt<img width="1439" height="526" alt="Screenshot 2025-12-03 at 2 59 54 PM" src="https://github.com/user-attachments/assets/544b7c7f-bc2b-4c8e-8f26-98a5f096d137" />
 ps://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 ## GAN 
-
 ![Uploading Screenshot 2025-12-03 at 2.59.54 PM.png…]()
+
+
 
 ## Summary
 
