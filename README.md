@@ -10,7 +10,8 @@ ps://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licens
 
 ---
 ## GAN 
-![Uploading Screenshot 2025-12-03 at 2.59.54 PM.png…]()
+<img width="1439" height="526" alt="Screenshot 2025-12-03 at 2 59 54 PM" src="https://github.com/user-attachments/assets/839d3871-a530-4d44-b847-92aa2cb3d79b" />
+
 
 
 
