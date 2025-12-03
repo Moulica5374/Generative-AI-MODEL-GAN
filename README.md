@@ -69,10 +69,10 @@ Training: 5,000 epochs with batch size 64
 ## Results & Validation
 
 ### Quantitative Results
-- ✅ **Generated 1,000 high-quality synthetic fraud samples** from 492 real samples (2x dataset)
-- ✅ **Preserved 29-dimensional feature correlations** (critical for model performance)
-- ✅ **Maintained statistical properties** (mean, std, distribution shape)
-- ✅ **Privacy-safe**: No exposure of real customer data
+-  **Generated 1,000 high-quality synthetic fraud samples** from 492 real samples (2x dataset)
+- **Preserved 29-dimensional feature correlations** (critical for model performance)
+- **Maintained statistical properties** (mean, std, distribution shape)
+- **Privacy-safe**: No exposure of real customer data
 
 ### Visual Validation: PCA Analysis
 
