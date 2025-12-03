@@ -58,6 +58,31 @@ Discriminator Network:
 Training: 5,000 epochs with batch size 64
 ```
 
+
+### Helper Functions
+```
+def build_generator():
+  pass
+```
+```
+def build_discriminator():
+   pass
+```
+
+
+```
+def build_gen(generator,discriminator):
+    pass
+```
+
+```
+generator = build_generator()
+discriminator = build_discriminator()
+gan = build_gen(generator,discriminator)
+gan.compile(optimizer = 'adam', loss = 'binary_crossentropy')
+```
+
+
 ### Training Process
 
 1. **Discriminator training**: Learn to classify real vs synthetic samples
@@ -66,7 +91,19 @@ Training: 5,000 epochs with batch size 64
 
 ---
 
+## Scatter Plot (Before GAN & After PCA)
+<img width="955" height="489" alt="Screenshot 2025-12-03 at 4 54 00 PM" src="https://github.com/user-attachments/assets/001866a3-4c9b-4331-bf97-622eab600e58" />
+# Insights
+- PCA reduces the high-dimensional dataset (29 features) into two meaningful features that capture the most variance.
+- Class 0 forms a dense cluster, indicating similar behavior among normal transactions.
+- Class 1 shows a more scattered and elongated shape, meaning fraud transactions have higher variability.
+
+Note : Class 0 refers to the genuine transactions and Class1 represents the fraud transactions.
+
+
 ## Results & Validation
+
+
 
 ### Quantitative Results
 -  **Generated 1,000 high-quality synthetic fraud samples** from 492 real samples (2x dataset)
